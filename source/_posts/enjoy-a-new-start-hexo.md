@@ -9,7 +9,7 @@ tags:
   - Vercel
   - Giscus
   - Typora
-cover: /img/cover_start_blog.jpg"
+cover: /img/cover_start_blog.jpg
 description: 从零搭建一个基于 Hexo + Butterfly 的个人博客，并完成 GitHub、Vercel、Giscus、本地搜索与 Typora 写作工作流配置。
 abbrlink: '376537e4'
 date: 2026-08-28 20:08:34
