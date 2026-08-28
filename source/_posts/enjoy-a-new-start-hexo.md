@@ -67,7 +67,7 @@ Vercel
 
 然后想着作为起点来梳理一下整个流程（感谢G老师的帮助让整个搭建的时间大大缩短） 希望可以有帮助 欢迎留言
 
-# 00 · 做些准备
+# 做些准备
 
 一个check list看下需要有些什么材料 本人是在windows 11上实现的
 
@@ -81,7 +81,7 @@ Vercel
 > - Vercel账号
 > - 魔法（能看到我的blog应该就有）
 
-# 01 · 初始化 Hexo
+# 初始化 Hexo
 
 ## 安装 Hexo CLI
 
@@ -133,7 +133,7 @@ http://localhost:4000
 
 ---
 
-# 02 · 安装 Butterfly
+# 安装 Butterfly
 
 安装主题：
 
@@ -177,7 +177,7 @@ hexo s
 
 ---
 
-# 03 · 独立主题配置
+# 独立主题配置
 
 不建议直接修改：
 
@@ -204,7 +204,7 @@ copy /Y node_modules\hexo-theme-butterfly\_config.yml _config.butterfly.yml
 
 ---
 
-# 04 · 基本站点信息
+# 基本站点信息
 
 修改 `_config.yml`：
 
@@ -222,7 +222,7 @@ theme: butterfly
 
 ---
 
-# 05 · 首页图片、头像与封面
+# 首页图片、头像与封面
 
 建立资源目录：
 
@@ -306,7 +306,7 @@ cover: /img/xxx.jpg
 
 ---
 
-# 06 · 导航栏
+# 导航栏
 
 配置：
 
@@ -331,7 +331,7 @@ nav:
 
 ---
 
-# 07 · 标签、分类与 About
+# 标签 分类 About
 
 创建页面：
 
@@ -385,7 +385,7 @@ Welcome to my blog.
 
 ---
 
-# 08 · 设置文章永久链接
+# 设置文章永久链接
 
 默认 Hexo URL 类似：
 
@@ -424,7 +424,7 @@ abbrlink:
 
 ---
 
-# 09 · 侧边栏作者卡片
+# 侧边栏作者卡片
 
 配置：
 
@@ -449,7 +449,7 @@ card_announcement:
 
 ---
 
-# 10 · GitHub 源码托管
+# GitHub 源码托管
 
 进入项目目录：
 
@@ -497,7 +497,7 @@ git push
 
 ---
 
-# 11 · Giscus 评论系统
+# Giscus 评论系统
 
 Giscus 基于 GitHub Discussions，因此需要：
 
@@ -562,7 +562,7 @@ giscus:
 
 ---
 
-# 12 · 部署到 Vercel
+# 部署到 Vercel
 
 在 Vercel 中：
 
@@ -616,7 +616,7 @@ git push
 
 ---
 
-# 13 · 本地全文搜索
+# 本地全文搜索
 
 安装：
 
@@ -682,7 +682,7 @@ git push
 
 ---
 
-# 14 · 使用 Typora 写博客
+# 使用 Typora 写博客
 
 为了让每篇文章拥有自己的图片目录，修改 `_config.yml`：
 
@@ -710,7 +710,7 @@ source\_posts\
 
 ---
 
-# 15 · Typora 图片管理
+# Typora 图片管理
 
 打开：
 
@@ -790,7 +790,7 @@ Markdown：
 
 ---
 
-# 16 · 本地测试
+# 本地测试
 
 每次文章写完以后建议先测试：
 
@@ -821,7 +821,7 @@ http://localhost:4000
 
 ---
 
-# 17 · 发布文章
+# 发布文章
 
 发布实际上只有三步：
 
@@ -863,7 +863,7 @@ hexo deploy
 
 ---
 
-# 18 · 常用命令速查
+# 常用命令速查
 
 | 功能 | 命令 |
 | --- | --- |
@@ -878,7 +878,7 @@ hexo deploy
 
 ---
 
-# 19 · 推荐日常写作流程
+# 推荐日常写作流程
 
 以后写博客不需要重新折腾环境。
 
@@ -913,8 +913,6 @@ git add .
 git commit -m "add new post"
 git push
 ```
-
-完成。
 
 ---
 
